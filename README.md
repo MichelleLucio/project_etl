@@ -11,6 +11,7 @@ Here is a visual representation of how we completed the project:
  
 
 INITIAL DATA SETS
+
 Here are links to the original IMDB data sets. Please note: We did not include these in our repositories due to the large amount of data they contain. You will need to download them into a “Resources” folder at the same level as the repo folder, in order to get the script to run. 
 
 https://datasets.imdbws.com/title.akas.tsv.gz
@@ -22,7 +23,10 @@ https://datasets.imdbws.com/title.basics.tsv.gz
 https://datasets.imdbws.com/title.ratings.tsv.gz
 
 https://datasets.imdbws.com/title.principals.tsv.gz
+
+
 CLEANING THE DATA
+
 •	https://datasets.imdbws.com/title.akas.tsv.gz
 o	Decided that this data wasn’t useful and ended up not using it 
 •	https://datasets.imdbws.com/title.basics.tsv.gz
@@ -67,7 +71,10 @@ o	title_principals_df_1
 o	title_principals_df_2
 o	title_principals_df_3
 o	title_principals_df_4
+
+
 CREATING THE DATA BASE ON MONGODB
+
 •	Set up MongoDB connection
 •	Used Pandas data frame to insert to MongoDB for each data frame:
 o	merge_title_df as titles – took approximately 3 minutes
